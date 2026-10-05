@@ -82,14 +82,15 @@ public class Team {
      */
     @Override
     public String toString() {
-        return "Team(name=" + this.name + ", members=" + this.members + ")";
-    }
+       return "Team(name=" + this.name + ", members=" + this.members + ")";
+     }
 
     /**
      * Get a hash code for the team
      */
     @Override
     public int hashCode() {
+        
         return this.name.hashCode() | this.members.hashCode();
     }
 }
