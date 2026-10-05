@@ -42,6 +42,7 @@ public class Developer {
         Team team = new Team("f26-10");
         team.addMember("Ataman");
         team.addMember("Cris");
+        team.addMember("Nathan Z");
         team.addMember("Shivansh");
         team.addMember("Yongxin");
         team.addMember("Zhewen");
